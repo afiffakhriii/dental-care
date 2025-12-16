@@ -8,8 +8,8 @@ export default function DentalDashboard() {
   const dentalCareList = [
     {
       id: 1,
-      title: "HBD BROWW, PLAY THIS SHIT!!",
-      audioUrl: "/audio/sikat-gigi.mp3",
+      title: "Tutorial sikat gigi",
+      audioUrl: "/audio/sikat-gig.mp3",
       icon: "🪥"
     },
     {
@@ -84,7 +84,7 @@ export default function DentalDashboard() {
               </div>
               <div>
                 <h1 className="text-3xl md:text-4xl font-black text-white drop-shadow-lg">
-                  Dental Care
+                  Dentihear
                 </h1>
                 <p className="text-green-100 text-sm md:text-base font-medium">
                   Panduan Perawatan Gigi Anak Berkebutuhan Khusus 
@@ -104,7 +104,7 @@ export default function DentalDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-                🎧 HBD TAM-KUN, OYABUN, SUGOIII
+                🎧 Selamat datang di, Dentihear
               </h2>
               <p className="text-gray-700 text-base md:text-lg">
                 Dengarkan panduan audio lengkap untuk kesehatan gigi optimal
@@ -205,7 +205,7 @@ export default function DentalDashboard() {
                   <span>📞</span> 0878-8938-2335
                 </p>
                 <p className="flex items-center gap-2 justify-center md:justify-start">
-                  <span>✉️</span> info@dentalcare.edu
+                  <span>✉️</span> info@dentihear.edu
                 </p>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function DentalDashboard() {
 
           <div className="border-t border-green-500 pt-6 text-center">
             <p className="text-green-100 text-sm">
-              © 2025 Dental Care. Universitas Jember - Fakultas Kedokteran Gigi
+              © 2025 Dentihear. Universitas Jember - Fakultas Kedokteran Gigi
             </p>
           </div>
         </div>
