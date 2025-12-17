@@ -8,64 +8,58 @@ export default function DentalDashboard() {
   const dentalCareList = [
     {
       id: 1,
-      title: "Tutorial sikat gigi",
-      audioUrl: "/audio/sikat-gig.mp3",
-      icon: "🪥"
+      title: "Menjaga Kebersihan Mulut Sepanjang Hari",
+      audioUrl: "/audio/menjaga-kebersihan-mulut-sepanjang-hari.m4a",
+      icon: "😁"
     },
     {
       id: 2,
-      title: "Teknik Flossing untuk Gigi Sehat",
-      audioUrl: "/audio/flossing.mp3",
-      icon: "🦷"
+      title: "Perhatikan Kebiasaan Yang Dapat Merusak Gigi",
+      audioUrl: "/audio/perhatikan-kebiasaan-yang-dapat-merusak-gigi.m4a",
+      icon: "⚠️"
     },
     {
       id: 3,
-      title: "Pentingnya Berkumur dengan Mouthwash",
-      audioUrl: "/audio/mouthwash.mp3",
-      icon: "💧"
+      title: "Kebiasaan Menyikat Gigi Secara Teratur",
+      audioUrl: "/audio/kebiasaan-menyikat-gigi-secara-teratur.m4a",
+      icon: "🪥"
     },
     {
       id: 4,
-      title: "Cara Merawat Gigi Sensitif",
-      audioUrl: "/audio/gigi-sensitif.mp3",
-      icon: "❄️"
+      title: "Malam Hari Sebelum Tidur",
+      audioUrl: "/audio/malam-hari-sebelum-tidur.m4a",
+      icon: "🌙"
     },
     {
       id: 5,
-      title: "Tips Mencegah Gigi Berlubang",
-      audioUrl: "/audio/cegah-lubang.mp3",
-      icon: "🛡️"
+      title: "Sebelum Mulai Menyikat Gigi",
+      audioUrl: "/audio/sebelum-mulai-menyikat-gigi.m4a",
+      icon: "⏱️"
     },
     {
       id: 6,
-      title: "Perawatan Gigi untuk Pengguna Behel",
-      audioUrl: "/audio/perawatan-behel.mp3",
-      icon: "😬"
+      title: "Cara Menyikat Gigi",
+      audioUrl: "/audio/cara-menyikat-gigi.m4a",
+      icon: "📘"
     },
     {
       id: 7,
-      title: "Cara Mengatasi Bau Mulut",
-      audioUrl: "/audio/bau-mulut.mp3",
-      icon: "🌿"
+      title: "Lidah Juga Perlu Dibersihkan",
+      audioUrl: "/audio/lidah-juga-perlu-dibersihkan.m4a",
+      icon: "👅"
     },
     {
       id: 8,
-      title: "Makanan yang Baik untuk Kesehatan Gigi",
-      audioUrl: "/audio/makanan-sehat.mp3",
-      icon: "🥗"
+      title: "Pemeriksaan Rutin Ke Dokter Gigi",
+      audioUrl: "/audio/pemeriksaan-rutin-ke-dokter-gigi.m4a",
+      icon: "🦷"
     },
     {
       id: 9,
-      title: "Kapan Harus ke Dokter Gigi",
-      audioUrl: "/audio/ke-dokter.mp3",
-      icon: "👨‍⚕️"
+      title: "Kebiasaan Makan",
+      audioUrl: "/audio/kebiasaan-makan.m4a",
+      icon: "🍎"
     },
-    {
-      id: 10,
-      title: "Perawatan Gigi Anak-Anak",
-      audioUrl: "/audio/gigi-anak.mp3",
-      icon: "👶"
-    }
   ];
 
   const handlePlay = (id) => {
@@ -87,7 +81,7 @@ export default function DentalDashboard() {
                   Dentihear
                 </h1>
                 <p className="text-green-100 text-sm md:text-base font-medium">
-                  Panduan Perawatan Gigi Anak Berkebutuhan Khusus 
+                  Panduan perawatan gigi dan mulut sehari-hari anak tunanetra 
                 </p>
               </div>
             </div>
@@ -107,7 +101,7 @@ export default function DentalDashboard() {
                 🎧 Selamat datang di, Dentihear
               </h2>
               <p className="text-gray-700 text-base md:text-lg">
-                Dengarkan panduan audio lengkap untuk kesehatan gigi optimal
+                Ayo! Dengarkan panduan audio lengkap untuk kesehatan gigi optimal
               </p>
             </div>
             <div className="hidden md:block text-7xl animate-bounce">
@@ -193,7 +187,7 @@ export default function DentalDashboard() {
                 <span className="text-2xl">🦷</span> Tentang
               </h3>
               <p className="text-green-100 text-sm leading-relaxed max-w-sm">
-                Platform edukasi perawatan gigi untuk anak berkebutuhan khusus
+                Platform edukasi perawatan gigi untuk anak tunanetra
               </p>
             </div>
             <div className="text-center md:text-left">
@@ -205,7 +199,7 @@ export default function DentalDashboard() {
                   <span>📞</span> 0878-8938-2335
                 </p>
                 <p className="flex items-center gap-2 justify-center md:justify-start">
-                  <span>✉️</span> info@dentihear.edu
+                  <span>✉️</span> ramadhantamura@gmail.com
                 </p>
               </div>
             </div>
