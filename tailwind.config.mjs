@@ -6,9 +6,13 @@ const config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-nunito)"],
+      },
+    },
   },
   plugins: [],
-}
+};
 
-export default config
+export default config;
